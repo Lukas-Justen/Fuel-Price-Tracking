@@ -13,8 +13,8 @@ class PriceScrapeScheduler {
   @Inject
   lateinit var priceScrapeService: PriceScrapeService;
 
-  @Scheduled(cron = "*/15 * * * *")
-  fun scrape() {
-    log.info("Start scraping process")
-  }
+//  @Scheduled(cron = "*/15 * * * *")
+//  fun scrape() {
+//    log.info("Start scraping process")
+//  }
 }
